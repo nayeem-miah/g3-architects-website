@@ -1,8 +1,61 @@
 /* word sans font from google */
   @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@400;700&family=Open+Sans:ital,wght@0,700;0,800;1,400&family=Work+Sans:ital,wght@0,400;0,700;0,800;1,600&display=swap');
+  /* shared styls */
 *{
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    
+}
+/* header styels */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding:50px 240px;
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-title{
+    color: #131313;
+     font-weight: 400;
+   
+    font-size: 3rem;
+    
+}
+nav > ul{
+    display:flex;
+    
+}
+nav li{
+    list-style:none;
+    margin-right:30px;
+    font-weight:500;
+    font-size:1rem;
+
+}
+nav li a{
+    text-decoration:none;
+
+}
+/* banner sylals */
+.banner-contant{
+    max-width:800;
+    text-align:center;
+    margin:0 auto;
+    
+}
+.banner-title{
+    font-size:4rem;
+    font-weight:700;
+    color: #131313;
+
+}
+.banner-discripetion{
+    color: #727272;
+
 }
